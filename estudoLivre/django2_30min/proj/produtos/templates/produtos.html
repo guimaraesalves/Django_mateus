@@ -8,18 +8,26 @@
     <title>Django</title>
 </head>
 <body>
+
+    <h1 style="text-align: center;">Olá Mundo!</h1>
+    <h1 style="text-align: center;">Hello World!</h1>
     <h1>Produtos</h1>
 
     <ul>
         {% for produto in produtos %}
             <li>{{ produto.nome }}</li>
+            <br>
         {% endfor %}
     </ul>
 
-    <p><strong>Produto Encontrado.</strong></p>
+    <h2><strong>Produto Encontrado.</strong></h2>
     <p>{{ produto }}</p>
-
-    <h2>Request > urls > view > model > response</h2>
+    <br>
+    <br>
+    <p>Aplicativos web feitos com Django geralmente
+        agrupam o código que manipula cada uma dessas
+        etapas em arquivos separados:<strong> Request > urls > view > model > response</strong></p>
+    <h4></h4>
 
 </body>
 </html>
