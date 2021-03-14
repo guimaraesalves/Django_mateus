@@ -3,9 +3,9 @@
 {% block sub_header %}
     <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
         <div class="col-md-6 px-0">
-          <h1 class="display-4 font-italic">Title of a longer featured blog post</h1>
-          <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.</p>
-          <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p>
+          <h1 class="display-4 font-italic">Um Blog para Portifólio</h1>
+          <p class="lead my-3">Um estudo de Python, Django para a criação de um Blog com o intuito em se fazer um Portifólio.</p>
+          <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue tentando...</a></p>
         </div>
       </div>
 
@@ -13,29 +13,29 @@
         <div class="col-md-6">
           <div class="card flex-md-row mb-4 shadow-sm h-md-250">
             <div class="card-body d-flex flex-column align-items-start">
-              <strong class="d-inline-block mb-2 text-primary">World</strong>
+              <strong class="d-inline-block mb-2 text-primary">Python</strong>
               <h3 class="mb-0">
-                <a class="text-dark" href="#">Featured post</a>
+                <a class="text-dark" href="#">Certificados</a>
               </h3>
-              <div class="mb-1 text-muted">Nov 12</div>
-              <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-              <a href="#">Continue reading</a>
+              <div class="mb-1 text-muted">Mar 21</div>
+              <p class="card-text mb-auto">Certificados e crusos completos da linguagem Pyhton.</p>
+              <a href="#">Veja Aqui</a>
             </div>
-            <img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
+
           </div>
         </div>
         <div class="col-md-6">
           <div class="card flex-md-row mb-4 shadow-sm h-md-250">
             <div class="card-body d-flex flex-column align-items-start">
-              <strong class="d-inline-block mb-2 text-success">Design</strong>
+              <strong class="d-inline-block mb-2 text-success">Django</strong>
               <h3 class="mb-0">
-                <a class="text-dark" href="#">Post title</a>
+                <a class="text-dark" href="#">Projetos</a>
               </h3>
-              <div class="mb-1 text-muted">Nov 11</div>
-              <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-              <a href="#">Continue reading</a>
+              <div class="mb-1 text-muted">Mar 21</div>
+              <p class="card-text mb-auto">Algumas Aplicações Web feitos com o Framework Django.</p>
+              <a href="#">Confira aqui.</a>
             </div>
-            <img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
+
           </div>
         </div>
       </div>
@@ -44,7 +44,7 @@
 
 {% block content %}
     <h3 class="pb-3 mb-4 font-italic border-bottom">
-            From the Firehose
+            Trabalhos e Estudos Acadêmicos
           </h3>
           {% for post in posts %}
           <div class="blog-post">
@@ -62,7 +62,7 @@
 
 
           <nav class="blog-pagination">
-            <a class="btn btn-outline-primary" href="#">Older</a>
-            <a class="btn btn-outline-secondary disabled" href="#">Newer</a>
+            <a class="btn btn-outline-primary" href="#">Mais Antigos</a>
+            <a class="btn btn-outline-secondary disabled" href="#">Mais Recentes</a>
           </nav>
 {% endblock %}
